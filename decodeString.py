@@ -24,6 +24,6 @@ class Solution:
                 
             else: #char is alpha by default
             
-                currStr += char
+                currStr += char  
                 
         return currStr
