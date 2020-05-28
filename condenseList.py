@@ -69,7 +69,7 @@ def condense(head):
             dupes[curr.data] = 1
             prev = curr
         curr = prev.next
-    return head
+    return  head
 
 
 
