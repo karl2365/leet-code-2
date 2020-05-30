@@ -59,7 +59,7 @@ def condense(head):
     prev = None
 
     dupes = dict()
-    while curr:
+    while  curr:
         if curr.data   in dupes:
             #remove node
             prev.next = curr.next
